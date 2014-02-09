@@ -19,3 +19,7 @@ libraryDependencies ++= Seq(
   "io.spray" %% "spray-json" % "1.2.5",
   "org.reactivemongo" %% "reactivemongo" % "0.10.0"
 )
+
+packSettings
+
+packMain := Map("reactivemongo-benchmark" -> "Application")
