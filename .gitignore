@@ -1,0 +1,23 @@
+# Simple Build Tool
+target/
+
+# Logfiles
+*.log
+
+# Repositories
+/repositories/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IDEA
+.idea/
+.idea_modules/
+
+# Trash
+.cache
+.DS_Store
+._.DS_Store
+Thumbs.db
